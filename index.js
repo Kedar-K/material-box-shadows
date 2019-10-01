@@ -20,6 +20,11 @@ let shadows = (options) => {
     }
 
     shadows.forEach(shadow => {
-        shadow.style.boxShadow = `${first_shadow}rgba(0,0,0,0.20), ${second_shadow}rgba(0,0,0,0.22)`
+        shadow.style.boxShadow = `${first_shadow}rgba(0,0,0,0.20), ${second_shadow}rgba(0,0,0,0.22)`;
+        if (options.padding) {
+            Image.style.padding = '1em';
+        }
     });
 }
+
+module.exports.shadows = shadows;

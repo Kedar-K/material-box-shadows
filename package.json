@@ -1,0 +1,24 @@
+{
+  "name": "material-box-shadows",
+  "version": "1.0.0",
+  "description": "Add awesome material box shadows to your website within no time and with various options.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kedar-K/material-box-shadows.git"
+  },
+  "keywords": [
+    "box-shadows",
+    "material",
+    "shadows"
+  ],
+  "author": "Kedar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kedar-K/material-box-shadows/issues"
+  },
+  "homepage": "https://github.com/Kedar-K/material-box-shadows#readme"
+}
